@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: mcp-server-qiwei
+Version: 0.1.0
+Summary: mcp server send new message to qiwei group
+Author: ryanjhzheng
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+
+# MCP Server Demo
+实现发送消息到企业微信群
