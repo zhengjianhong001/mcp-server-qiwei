@@ -1,7 +1,7 @@
 import asyncio
 
 from . import server
-from . import tapd
+from . import core
 
 __version__ = "2.1.4"
 
@@ -11,4 +11,4 @@ def main():
     asyncio.run(server.main())
 
 
-__all__ = ["main", "server", "tapd", "__version__"]
+__all__ = ["main", "server", "core", "__version__"]

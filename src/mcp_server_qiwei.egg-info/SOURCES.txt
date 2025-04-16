@@ -1,10 +1,11 @@
 README.md
 pyproject.toml
-src/mcp-server-qiwei/__init__.py
-src/mcp-server-qiwei/app_config.py
-src/mcp-server-qiwei/core.py
-src/mcp-server-qiwei/server.py
+src/mcp_server_qiwei/__init__.py
+src/mcp_server_qiwei/app_config.py
+src/mcp_server_qiwei/core.py
+src/mcp_server_qiwei/server.py
 src/mcp_server_qiwei.egg-info/PKG-INFO
 src/mcp_server_qiwei.egg-info/SOURCES.txt
 src/mcp_server_qiwei.egg-info/dependency_links.txt
+src/mcp_server_qiwei.egg-info/requires.txt
 src/mcp_server_qiwei.egg-info/top_level.txt

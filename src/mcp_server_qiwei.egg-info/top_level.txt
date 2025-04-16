@@ -1,1 +1,1 @@
-mcp-server-qiwei
+mcp_server_qiwei

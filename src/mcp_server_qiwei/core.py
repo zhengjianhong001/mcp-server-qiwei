@@ -3,13 +3,14 @@ import requests
 import json
 from typing import Dict, Any, Optional
 from base64 import b64encode
-from mcp-server-qiwei.app_config import AppConfig
+from mcp_server_qiwei.app_config import AppConfig
 
-class TAPDClient:
+class QweiClient:
     def __init__(self):
         """
         使用配置文件中的常量进行初始化
         """
+        config = AppConfig()
         self.bot_url = config.bot_url
 
     def send_message(self, data: Dict[str, Any]):

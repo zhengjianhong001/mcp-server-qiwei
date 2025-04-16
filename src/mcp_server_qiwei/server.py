@@ -2,11 +2,11 @@ import os
 import json
 import requests
 from mcp.server.fastmcp import FastMCP
-from mcp_server_tapd.tapd import TAPDClient
-from mcp_server_tapd.app_config import AppConfig
+from mcp_server_qiwei.core import QweiClient
+from mcp_server_qiwei.app_config import AppConfig
 
-mcp = FastMCP("mcp-tapd")
-client = TAPDClient()
+mcp = FastMCP("mcp-qiwei")
+client = QweiClient()
 
 @mcp.tool()
 def send_qiwei_message(msg: str) -> dict:
